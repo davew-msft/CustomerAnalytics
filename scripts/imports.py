@@ -5,7 +5,7 @@ def slide( what ):
 
 import os
 import pandas as pd
-pd.set_option( 'display.max_columns', 8 )
+# pd.set_option( 'display.max_columns', 8 )
 pd.options.mode.chained_assignment = None
 from IPython.display import display_html 
 import numpy as np
@@ -53,3 +53,7 @@ from IPython.display import Image
 from sklearn.naive_bayes import GaussianNB
 from sklearn import svm
 import lifetimes
+
+from azure.storage.blob import BlobServiceClient, generate_account_sas, ResourceTypes, AccountSasPermissions
+
+print("done running imports.py")

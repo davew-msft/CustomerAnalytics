@@ -11,3 +11,8 @@ sidetable
 simple-colors
 sklearn
 sklearn-pandas
+pandasql
+pydotplus
+ipykernel
+statsmodels
+azure-storage-blob
