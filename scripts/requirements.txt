@@ -16,3 +16,5 @@ pydotplus
 ipykernel
 statsmodels
 azure-storage-blob
+ipython-sql
+pyodbc
