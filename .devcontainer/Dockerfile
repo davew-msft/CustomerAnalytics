@@ -21,7 +21,9 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 COPY ../scripts/requirements.txt /tmp/pip-tmp/
 RUN pip3 --disable-pip-version-check --no-cache-dir install -r /tmp/pip-tmp/requirements.txt \
     && rm -rf /tmp/pip-tmp
-
+COPY ../scripts/nbextensions.sh /tmp/pip-tmp/
+RUN chmod +x /tmp/pip-tmp/nbextensions.sh
+RUN /tmp/pip-tmp/nbextensions.sh
 
 
 # [Optional] Uncomment this line to install global node packages.

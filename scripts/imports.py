@@ -61,4 +61,10 @@ import pyodbc
 from sqlalchemy import create_engine
 import urllib
 
+## fuguesql stuff
+## this installs fuguesql and the %%fsql cell magic for jupyter
+from fugue_notebook import setup
+setup()
+
+
 print("done running imports.py")

@@ -22,9 +22,7 @@ But the **technology** is much less interesting than understanding a simple repe
 > You do NOT need to be a python expert or understand advanced SQL.  What I will present is merely the thought processes that will help you on your analytics journey.  I switch between python and SQL a lot -- that is by design -- I choose the best tool for _me_ to accomplish a task, but you could use whatever YOU are comfortable with.  The MTC is here to help.  
 
 
-TODO
-
-I consider _customer analytics_ to be part of what I call **Prescriptive Analytics**.  This means that the analytics we do are far more advanced than just _predictive_ or _descriptive_ (machine learning and basic BI reporting).  We want to provide our business with ideas regarding _What do we do next?_.  
+<img src="./slides/Prescriptive.png" width="300" align="right">I consider _customer analytics_ to be part of what I call **Prescriptive Analytics**.  This means that the analytics we do are far more advanced than just _predictive_ or _descriptive_ (machine learning and basic BI reporting).  We want to provide our business with ideas regarding _What do we do next?_.  
 
 # Customer Analytics
 
@@ -47,7 +45,7 @@ I’ll bet your company has the data to tell which customers have churned and wh
 
 It's been proven (you can go find the links yourself) that if your business gets good at customer analytics it will definitely provide _lift_ to your business, in the form of higher profits and reduced costs.  
 
-
+>But even more importantly, if you master the _Design Thinking_ and _Rapid Prototyping_ process that I use, and tailor it to YOUR business, these techniques will help you solve _ANY_ analytics problem.  
 
 ### So what is it?  
 
