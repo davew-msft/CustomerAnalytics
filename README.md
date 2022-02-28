@@ -6,7 +6,8 @@ Dave Wentzel
 
 Philadelphia Microsoft Technology Center  
 
-Contact Information:  [LinkedIn](https://linkedin.com/in/dwentzel)
+Contact Information:  [LinkedIn](https://linkedin.com/in/dwentzel)  
+[Presentation](./CustomerAnalytics.pdf)
 
 # What is this?
 
@@ -65,5 +66,10 @@ Some use cases:
 
 Here's what we'll look at today:
 
-* Customer Segmentation Analytics
-
+* [Customer Segmentation Analytics](./CustomerSegmentationAnalytics.ipynb)
+  * There are a lot of uses for grouping your customers into "segments" or cohorts.  
+* [Customer Attrition Modeling](./ChurnAnalytics.ipynb)
+  * Businesses want to know _why are my customers leaving and what do I do next?_
+* [Customer Churn Analytics](./BankCustomerChurn.ipynb)
+  * This is a simple bank dataset where we predict churn.  There is no commentary in this notebook, just the code.  
+* Customer Lifetime Value
